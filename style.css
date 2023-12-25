@@ -1,0 +1,29 @@
+.board{
+    width: 640px;
+    height: 640px;
+    border: 10px solid #000;
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.black{
+    background-color: #b58863;
+}
+
+.white{
+    background-color: #f0d9b5;
+
+}
+
+.figure{
+    font-size: 40px;
+    cursor: pointer;
+}
